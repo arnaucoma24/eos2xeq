@@ -2,7 +2,8 @@
 
 Applies seven structural checks used to triage candidate antibiotics, flagging PAINS and Brenk alerts, Morgan-fingerprint Tanimoto similarity of 0.5 or more to a curated set of 559 known antibacterials, and nitrofuran, fluoroquinolone, carbapenem and beta-lactam motifs. Krishnan and colleagues applied them when searching for de novo antibiotics against Neisseria gonorrhoeae and Staphylococcus aureus, keeping compounds below the similarity cut-off. The activity, cytotoxicity and synthetic accessibility filters of that study are not reproduced here.
 
-This model was incorporated on 2025-09-17.Last packaged on 2026-10-07.
+This model was incorporated on 2025-09-17.
+Last packaged on 2026-10-07.
 
 ## Information
 ### Identifiers
@@ -43,6 +44,7 @@ Below are the **Output Columns** of the model:
 - **DockerHub**: [https://hub.docker.com/r/ersiliaos/eos2xeq](https://hub.docker.com/r/ersiliaos/eos2xeq)
 - **Docker Architecture:** `AMD64`, `ARM64`
 - **S3 Storage**: [https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos2xeq.zip](https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos2xeq.zip)
+- **Apptainer**: [https://models-sif.s3.eu-north-1.amazonaws.com/eos2xeq_v2.sif](https://models-sif.s3.eu-north-1.amazonaws.com/eos2xeq_v2.sif)
 
 ### Resource Consumption
 - **Model Size (Mb):** `1`
